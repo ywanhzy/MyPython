@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 
 def sendEmail():
     msg_from = '280243373@qq.com'  # 发送方邮箱
-    passwd = 'fcjihvskembdbjjd'  # 填入发送方邮箱的授权码
+    passwd = '444444444444444'  # 填入发送方邮箱的授权码
     msg_to = '2206006956@qq.com'  # 收件人邮箱
 
     subject = "python邮件测试"  # 主题
