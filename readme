@@ -1,0 +1,4 @@
+1. pip install pymssql
+ Could not fetch URL https://pypi.python.org/simple/pymssql/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:661) - skipping
+
+>pip install --trusted-host pypi.python.org pymssql
