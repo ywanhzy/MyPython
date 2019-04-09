@@ -1,4 +1,24 @@
 1. pip install pymssql
+fcjihvskembdbjjd
  Could not fetch URL https://pypi.python.org/simple/pymssql/: There was a problem confirming the ssl certificate: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed (_ssl.c:661) - skipping
 
 >pip install --trusted-host pypi.python.org pymssql
+
+
+
+图片验证码
+http://192.168.20.246:8898/html/SecurityCode.aspx?mark=17752855772
+
+http://192.168.20.246:8898/api/SendCode?tel=17752855772&type=1&imgcode=
+
+    传入参数：
+tel：手机号
+type： 1注册验证 2 重置密码 3修改手机号
+imgCode  图形验证码
+
+
+字符类验证码识别过程：
+
+图像采集 -------- 图像处理（灰度处理--二值化--去噪--倾斜度校正--字符切割--归一化） ------- 图像识别（提取字符特性 -- 样本训练 -- 识别）------- 输出结果
+
+
